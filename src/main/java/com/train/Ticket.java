@@ -14,7 +14,7 @@ public class Ticket{
                     System.out.println(roundTripCount*2000*0.9+(ticketCount-roundTripCount)*1000);
                     return;
                 }
-            System.out.println("Error");
+            System.out.println("The number of round-trip tickets MUST greater than or equal to the number of tickets");
         }
 }
 
